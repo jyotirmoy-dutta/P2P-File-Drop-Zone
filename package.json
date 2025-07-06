@@ -1,0 +1,28 @@
+{
+  "name": "p2p-file-drop-zone",
+  "version": "1.0.0",
+  "description": "A secure in-browser file exchange for employees on the same LAN—like a local \"WeTransfer.\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "p2p",
+    "file-transfer",
+    "webrtc",
+    "websocket",
+    "lan",
+    "wetransfer",
+    "peer-to-peer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 

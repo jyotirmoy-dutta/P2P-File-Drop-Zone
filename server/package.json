@@ -1,0 +1,19 @@
+{
+  "name": "wetransfer-server",
+  "version": "1.0.0",
+  "description": "P2P File Drop Zone - Signaling Server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["p2p", "file-transfer", "webrtc", "websocket"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
