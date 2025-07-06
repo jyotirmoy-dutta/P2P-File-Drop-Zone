@@ -3,7 +3,6 @@
 A professional, secure, and feature-rich peer-to-peer file transfer application for local area networks (LAN). Built with modern web technologies, this application enables seamless file sharing between devices on the same network without requiring external servers or cloud storage.
 
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/yourusername/p2p-file-drop-zone)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18+-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue)](https://www.typescriptlang.org/)
@@ -193,24 +192,12 @@ cd client && npm install && cd ..
 npm run dev
 ```
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **WebRTC**: For enabling peer-to-peer communication
 - **React Team**: For the amazing frontend framework
 - **TailwindCSS**: For the utility-first CSS framework
 - **Socket.IO**: For real-time communication capabilities
-
-## 📞 Support
-
-- 📖 [Documentation](docs/)
-- 🐛 [Issue Tracker](https://github.com/yourusername/p2p-file-drop-zone/issues)
-- 💬 [Discussions](https://github.com/yourusername/p2p-file-drop-zone/discussions)
-
----
 
 **Made with ❤️ by the P2P File Drop Zone Team**
 
